@@ -1,0 +1,9 @@
+DOORduino
+ 
+ Needs an Arduino plugged to your door!
+ (Board scheme to come later)
+
+Description:
+ A web server awaiting connections via bookmarklet.
+ Each URL verb will trigger an action (e.g. http://my.ip/url-verb/ ), depending on 
+ which pin is plugged in the corresponding verb (relay, led, etc.)
